@@ -24,4 +24,8 @@
 
 ![Image](Screenshot 2023-10-02 at 11.00.41 AM.png)
 
+**Here is the "cat" command with no arguments, it will just repeat what you type in unless you click Ctrl^C or Ctrl^D.**
+
+![Image](Screenshot 2023-10-02 at 11.02.59 AM.png)
+
 
