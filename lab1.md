@@ -15,3 +15,9 @@
 **Here is the "ls" command with no arguments, it will display the directories and files below.**
 
 ![Image](Screenshot 2023-10-02 at 11.00.16 AM.png)
+
+**Here is the "ls" command with a directory as an argument, it will display the files and directories inside.**
+
+![Image](Screenshot 2023-10-02 at 11.00.26 AM.png)
+
+
