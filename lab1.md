@@ -20,4 +20,8 @@
 
 ![Image](Screenshot 2023-10-02 at 11.00.26 AM.png)
 
+**Here is the "ls" command with a file path as an argument, it will just repeat the argument and do nothing.**
+
+![Image](Screenshot 2023-10-02 at 11.00.41 AM.png)
+
 
