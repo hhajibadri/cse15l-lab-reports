@@ -6,4 +6,4 @@
 
 **Here is the "cd" argument with just a directory as an argument, it will go into that directory**
 
-![Image](Screenshot 2023-10-02 at 10.59.23 AM.png)
+![Image](Screenshot 2023-10-02 at 10.59.43 AM.png)
