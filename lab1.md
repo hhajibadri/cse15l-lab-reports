@@ -32,4 +32,7 @@
 
 ![Image](Screenshot 2023-10-02 at 11.03.16 AM.png)
 
+**Here is the "cat" command with a file as an argument, it will print the contents of that file.**
+
+![Image](Screenshot 2023-10-02 at 11.03.25 AM.png)
 
