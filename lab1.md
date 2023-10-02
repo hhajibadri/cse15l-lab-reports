@@ -8,7 +8,7 @@
 
 ![Image](Screenshot 2023-10-02 at 10.59.43 AM.png)
 
-**Here is the "cd" command with just a file path as an argument, it will tell you it is not a directory.**
+**Here is the "cd" command with just a file path as an argument, it will tell you it is not a directory and do nothing.**
 
 ![Image](Screenshot 2023-10-02 at 11.00.09 AM.png)
 
