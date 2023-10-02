@@ -11,3 +11,7 @@
 **Here is the "cd" command with just a file path as an argument, it will tell you it is not a directory.**
 
 ![Image](Screenshot 2023-10-02 at 11.00.09 AM.png)
+
+**Here is the "ls" command with no arguments, it will display the directories and files below.**
+
+![Image](Screenshot 2023-10-02 at 11.00.16 AM.png)
