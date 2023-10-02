@@ -4,7 +4,7 @@
 
 ![Image](Screenshot 2023-10-02 at 10.59.23 AM.png)
 
-**Here is the "cd" command with a directory as an argument, it will go into that directory.**
+**Here is the "cd" command with a directory as an argument, it will go into that directory if it exists.**
 
 ![Image](Screenshot 2023-10-02 at 10.59.43 AM.png)
 
@@ -12,11 +12,11 @@
 
 ![Image](Screenshot 2023-10-02 at 11.00.09 AM.png)
 
-**Here is the "ls" command with no arguments, it will display the directories and files below.**
+**Here is the "ls" command with no arguments, it will display the directories and files from the current directory.**
 
 ![Image](Screenshot 2023-10-02 at 11.00.16 AM.png)
 
-**Here is the "ls" command with a directory as an argument, it will display the files and directories inside.**
+**Here is the "ls" command with a directory as an argument, it will display the files and directories inside the specified directory.**
 
 ![Image](Screenshot 2023-10-02 at 11.00.26 AM.png)
 
@@ -24,7 +24,7 @@
 
 ![Image](Screenshot 2023-10-02 at 11.00.41 AM.png)
 
-**Here is the "cat" command with no arguments, it will just repeat what you type in unless you click Ctrl^C.**
+**Here is the "cat" command with no arguments, it will just repeat what you type in unless you enter Ctrl^C.**
 
 ![Image](Screenshot 2023-10-02 at 11.02.59 AM.png)
 
