@@ -1,6 +1,6 @@
 # Lab 1 Report
 
-**Here is the "cd" command without any commands, it goes one directory above if possible.**
+**Here is the "cd" command without any commands, it goes one directory above if possible except if it's root.**
 
 ![Image](Screenshot 2023-10-02 at 10.59.23 AM.png)
 
