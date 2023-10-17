@@ -2,5 +2,5 @@
 *Welcome* **to** 
 # CSE 15L
 
-[Lab 1 Report](/lab\ 1\ report/lab1.md)
+[Lab 1 Report](/lab%201%20report/lab1.md)
 
