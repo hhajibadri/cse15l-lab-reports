@@ -1,6 +1,6 @@
 # Lab 1 Report
 
-**Here is the "cd" command without any arguments, it takes you to the home directory which is also known as "~".**
+**Here is the "cd" command without any arguments, it takes you to the home directory which is also known as "~". This would be equivalent to doing "cd ~".**
 
 ![Image](/lab%201%20report/image1.png)
 
