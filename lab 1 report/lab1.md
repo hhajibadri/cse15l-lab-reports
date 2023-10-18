@@ -1,6 +1,6 @@
 # Lab 1 Report
 
-**Here is the "cd" command without any arguments, it goes one directory above if possible except if it's root.**
+**Here is the "cd" command without any arguments, it takes you to the home directory which is also known as "~".**
 
 ![Image](/lab%201%20report/image1.png)
 
