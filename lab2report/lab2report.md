@@ -22,6 +22,7 @@ Here is me logging in without a password to the ieng server.
 
 ### What did I learn from lab 2 or 3?
 
+I learned how java servers work and how they handle requests. I also learned that you can use SSH to login without a password by generating a private and public key which is the most convenient feature. Before these two weeks I didn't know how how URL's work, more specifically I knew that there is a domain and path but I didn't know how the paths were handled. In addtion I learned
 
 
 
