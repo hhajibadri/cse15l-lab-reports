@@ -32,7 +32,7 @@
 
 ![Image](/lab%201%20report/image8.png)
 
-**Here is the "cat" command with a file as an argument, it will print the contents of that file if it is a valid path.**
+**Here is the "cat" command with a file as an argument, it will print the contents of that file if it is a valid path. If it can't find the file or directory it will throw an error message.**
 
 ![Image](/lab%201%20report/image9.png)
 
