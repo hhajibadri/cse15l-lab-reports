@@ -6,7 +6,20 @@ The way StringServer works is that everytime we navigate to the website it sends
 
 ![Server](server.png) ![Server 2](server2.png) ![Server 3](server3.png)
 
+Here you can see ther StringServer in action, I first added "wow" using "/add-message?s="wow" and then I did the same for "Hello World". After that I just went to the home page and you can see it prints the contents of the Strings.
+
 ![Private Key](pathtoprivate.png)
 
-Here you can see ther StringServer in action, I first added "wow" using "/add-message?s="wow" and then I did the same for "Hello World". After that I just went to the home page and you can see it prints the contents of the Strings.
+Path to the private key stored on my MacBook.
+
+![Public Key](pathtopublic.png)
+
+Path to the public key stored on the ieng6 sever.
+
+![Login w/pwd](loginwithnopwd.png)
+
+Here is me logging in without a password to the ieng server.
+
+
+
 
