@@ -16,23 +16,23 @@
 
 ![Image](/lab%201%20report/image4.png)
 
-**Here is the "ls" command with a directory as an argument, it will display the files and directories inside the specified directory.**
+**Here is the "ls" command with a directory as an argument, it will display the files and directories inside the specified directory. If it can't find the directory it will throw an error message.**
 
 ![Image](/lab%201%20report/image5.png)
 
-**Here is the "ls" command with a file path as an argument, it will just repeat the argument and do nothing.**
+**Here is the "ls" command with a file path as an argument, it will just repeat the argument and do nothing. If it can't find the file path it will throw an error saying no such file or directory**
 
 ![Image](/lab%201%20report/image6.png)
 
-**Here is the "cat" command with no arguments, it will just repeat what you type in unless you enter Ctrl^C.**
+**Here is the "cat" command with no arguments, it will just repeat what you type in unless you enter Ctrl^C or Ctrl^D.**
 
 ![Image](/lab%201%20report/image7.png)
 
-**Here is the "cat" command with a directory as an argument, it will just tell you that it is a directory.**
+**Here is the "cat" command with a directory as an argument, it will just tell you that it is a directory. It is not an error message.**
 
 ![Image](/lab%201%20report/image8.png)
 
-**Here is the "cat" command with a file as an argument, it will print the contents of that file.**
+**Here is the "cat" command with a file as an argument, it will print the contents of that file if it is a valid path.**
 
 ![Image](/lab%201%20report/image9.png)
 
