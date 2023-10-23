@@ -4,11 +4,11 @@
 
 ![Image](/lab%201%20report/image1.png)
 
-**Here is the "cd" command with a directory as an argument, it will go into that directory if it exists.**
+**Here is the "cd" command with a directory as an argument, it will go into that directory if it exists. If not it will throw an error message saying it doesn't exist.**
 
 ![Image](/lab%201%20report/image2.png)
 
-**Here is the "cd" command with a file path as an argument, it will tell you it is not a directory and do nothing.**
+**Here is the "cd" command with a file path as an argument, it will throw an error message saying that it is not a directory.**
 
 ![Image](/lab%201%20report/image3.png)
 
