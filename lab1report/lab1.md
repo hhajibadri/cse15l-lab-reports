@@ -2,7 +2,7 @@
 
 **Here is the "cd" command without any arguments, it takes you to the home directory which is also known as "~". This would be equivalent to doing "cd ~".**
 
-![Image](/lab1report/image1.png)
+![Image](lab1report/image1.png)
 
 **Here is the "cd" command with a directory as an argument, it will go into that directory if it exists. If not it will throw an error message saying it doesn't exist.**
 
