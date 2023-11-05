@@ -25,3 +25,7 @@ public void testReverseInPlace()
 ```
 
 This input doesn't result in failure because a 1 element array does not need to be reversed.
+
+![Symptom output](symptom_output.png)
+
+Here is the output of JUnit showing the symptom. The second test failed because it did not correctly reverse the array.
