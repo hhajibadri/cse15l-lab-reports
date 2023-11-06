@@ -1,6 +1,6 @@
 # Lab 3 Report
 
-I choose ArrayExamples and ArrayTests to demonstrate the bug and symptom
+**I choose ArrayExamples and ArrayTests to demonstrate the bug and symptom.**
 
 ```java
 @Test
@@ -55,3 +55,12 @@ static void reverseInPlace(int[] arr)
 ```
 
 After fixing the bug. The bug was we were not swapping arr[arr.length - 1 - i] with arr[i]. This is becuase when we assign arr[i] to arr[arr.length - 1 - i] we  lose the value of what arr[i] originally was. To fix this we introduce a temp variable to hold the value of arr[i] so that when we assign arr[i] to arr[arr.length - 1 - i] we can simply assign arr[arr.length - 1 - i] to temp. We also only need to traverse half the array because we are swapping the beginning elements from the ones at the end.
+
+**I choose the grep command.**
+
+`grep -i "convergent evolution" ./technical/*/*`
+
+![Example 1](cmd1.png)
+
+![Example 2](cmd2.png)
+
