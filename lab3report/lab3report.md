@@ -147,41 +147,40 @@ Using the "-l" option for grep means that any matches found will only result in 
 **grep -r**
 
 ```shell
-hugirhajibadri@Hugirs-MacBook-Pro docsearch % grep -i -r "octopus" ./technical
-./technical/plos/journal.pbio.0020430.txt:        “Dr. Octopus,” the villain that terrorizes the city in the most recent film of the
-./technical/plos/journal.pbio.0020430.txt:        with the BMI, becomes the villainous Dr. Octopus. At the end of the movie, in a flicker of
-./technical/plos/journal.pbio.0020430.txt:        Although Dr. Octopus is a fictional character, a figment of a vivid imagination,
-./technical/plos/journal.pbio.0020430.txt:        Octopus. The fictional BMI in 
+hugirhajibadri@Hugirs-MacBook-Pro docsearch % grep -i -r "god" ./technical/government/
+./technical/government//Gen_Account_Office/d01591sp.txt:Godley, Wynne, and Bill Martin. "How Negative Can U.S. Saving
+./technical/government//Media/Justice_for_all.txt:said as tears welled up in her eyes. "God just brought her to take
+./technical/government//Media/Higher_court.txt:Legal Aid ''has been a godsend to a great number of people in
+./technical/government//Media/Domestic_violence_aid.txt:be a godsend ... If a woman knows she is going to get some help
 hugirhajibadri@Hugirs-MacBook-Pro docsearch % 
 ```
 
 ```shell
-hugirhajibadri@Hugirs-MacBook-Pro docsearch % grep -i -r "Darwin" technical
-technical/plos/journal.pbio.0020347.txt:        described by Charles Darwin (1859).
-technical/plos/journal.pbio.0020347.txt:        Not all genetic variation is created equal. When Darwin first introduced the concept of
-technical/plos/journal.pbio.0020347.txt:        evolution (Darwin 1859), he challenged the prevailing view that species were fixed entities
-technical/plos/journal.pbio.0020346.txt:        on the traditional comparative approach, which was always the strength of Darwinian
-technical/plos/journal.pbio.0020046.txt:        answers to possible questions and criticisms to avoid stuttering. Charles Darwin also
-technical/plos/journal.pbio.0020046.txt:        stuttered; interestingly, his grandfather Erasmus Darwin suffered from the same condition,
-technical/plos/journal.pbio.0020302.txt:        turn to be consumed by predators. Darwinian evolution would result in many of the same
-technical/plos/journal.pbio.0020311.txt:        out by Charles Darwin and his son Francis in 1880. The Darwins were able to demonstrate
-technical/plos/journal.pbio.0020071.txt:        are many ideologically motivated books opposing natural selection and Darwinism. To
-technical/plos/journal.pbio.0020439.txt:        location within the head (Hsieh 2003). Charles Darwin was right when he wrote that people
-technical/plos/journal.pbio.0020439.txt:        extra sense” (F. Darwin 1905). Today's biologists increasingly recognize that appropriate
-technical/biomed/gb-2003-4-9-r58.txt:        locations. The DARWIN server [ 30 ] was used to calculate
-technical/biomed/gb-2001-2-9-research0035.txt:        manually evaluating the results from BLAST and DARWIN (data
-technical/biomed/gb-2001-2-9-research0035.txt:          and DARWIN. BLAST analyses were carried out for both the
-technical/biomed/gb-2001-2-9-research0035.txt:        GenProtEC, BLAST and DARWIN analyses, and MAGPIE
-technical/biomed/gb-2001-2-9-research0035.txt:            DARWIN analysis
-technical/biomed/gb-2001-2-9-research0035.txt:            DARWIN (version 2.0) was used to detect
-technical/biomed/gb-2001-2-9-research0035.txt:            the basis of the DARWIN results. In our hands, DARWIN
-technical/biomed/gb-2001-2-9-research0035.txt:            BLAST and DARWIN analyses. The automatic function
-technical/biomed/1471-2105-3-2.txt:        In the 1830's, Charles Darwin's investigation of the
-technical/biomed/1471-2105-3-2.txt:        In the 1970's, Woese and Fox revisited Darwinian
+hugirhajibadri@Hugirs-MacBook-Pro docsearch % grep -i -r "heaven" ./technical/government/
+./technical/government//Media/Anthem_Payout.txt:It might have seemed like manna from heaven - up to thousands of
+./technical/government//Media/Avoids_Budget_Cut.txt:"It was like pennies from heaven," Kleiman said.
 hugirhajibadri@Hugirs-MacBook-Pro docsearch % 
 ```
 
 The "-r" feature in grep is very useful because it will recursively search all files in the directory and subdirectories. Without this feature you will have to use somethign like "./technical/*/*" but even then this will not search all files because you are specifying the directories grep can access. Basically -r will search all files. Found with ChatGPT.
+
+**grep --color=[auto, always, never]**
+
+```shell
+hugirhajibadri@Hugirs-MacBook-Pro docsearch % grep -i -r --color=auto "titin" ./technical
+./technical/biomed/gb-2002-3-9-research0043.txt:          titin has a D → E modification. Unfortunately, only the
+./technical/biomed/gb-2002-3-9-research0043.txt:          apo-titin structure has been determined so there is no
+hugirhajibadri@Hugirs-MacBook-Pro docsearch % 
+```
+
+```shell
+hugirhajibadri@Hugirs-MacBook-Pro docsearch % grep -i -r --color=auto "Jupiter" ./technical 
+./technical/plos/journal.pbio.0020302.txt:        On Jupiter's moon Europa, the cracks and icebergs on the surface of the ice indicate
+./technical/plos/journal.pbio.0020302.txt:        indicated by the magnetic disturbance Europa makes as it moves through Jupiter's magnetic
+hugirhajibadri@Hugirs-MacBook-Pro docsearch % 
+```
+
+This option highlights the matches in a color, by default it is red on Mac OS. This is useful because it highlights the string to make it easier to see. Since the terminal is only in black and white it helps a lot. Found with ChatGPT.
 
 
 
