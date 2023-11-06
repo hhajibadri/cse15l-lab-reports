@@ -55,12 +55,44 @@ static void reverseInPlace(int[] arr)
 ```
 
 After fixing the bug. The bug was we were not swapping arr[arr.length - 1 - i] with arr[i]. This is becuase when we assign arr[i] to arr[arr.length - 1 - i] we  lose the value of what arr[i] originally was. To fix this we introduce a temp variable to hold the value of arr[i] so that when we assign arr[i] to arr[arr.length - 1 - i] we can simply assign arr[arr.length - 1 - i] to temp. We also only need to traverse half the array because we are swapping the beginning elements from the ones at the end.
+<<<<<<< HEAD
+
+
+=======
 
 **I choose the grep command.**
 
-`grep -i "convergent evolution" ./technical/*/*`
+```shell
+hugirhajibadri@Hugirs-MacBook-Pro docsearch % grep -i "convergent evolution" ./technical/*/*
+./technical/biomed/1471-2148-3-18.txt:        centers through convergent evolution. Two of these classes
+./technical/biomed/1471-2148-3-18.txt:        developed through convergent evolution [ 30 ] seems flawed:
+./technical/biomed/1471-2148-3-18.txt:        convergent evolution at a sequence level [ 33 34 ] we
+./technical/biomed/1471-2164-3-4.txt:          pressures that led to convergent evolution in two
+./technical/biomed/gb-2002-3-5-research0025.txt:          structure might have arisen by convergent evolution from
+./technical/biomed/gb-2002-3-5-research0025.txt:          fold and have evolved by convergent evolution in
+./technical/biomed/gb-2003-4-2-r14.txt:          lineages or from convergent evolution. Parametric
+grep: ./technical/government/About_LSC: Is a directory
+grep: ./technical/government/Alcohol_Problems: Is a directory
+grep: ./technical/government/Env_Prot_Agen: Is a directory
+grep: ./technical/government/Gen_Account_Office: Is a directory
+grep: ./technical/government/Media: Is a directory
+grep: ./technical/government/Post_Rate_Comm: Is a directory
+./technical/plos/journal.pbio.0030021.txt:        the convergent evolution of sex determination related to mating system adaptations. An
+```
 
-![Example 1](cmd1.png)
+```shell
+hugirhajibadri@Hugirs-MacBook-Pro docsearch % grep -i "octopus" ./technical/*/*             
+grep: ./technical/government/About_LSC: Is a directory
+grep: ./technical/government/Alcohol_Problems: Is a directory
+grep: ./technical/government/Env_Prot_Agen: Is a directory
+grep: ./technical/government/Gen_Account_Office: Is a directory
+grep: ./technical/government/Media: Is a directory
+grep: ./technical/government/Post_Rate_Comm: Is a directory
+./technical/plos/journal.pbio.0020430.txt:        “Dr. Octopus,” the villain that terrorizes the city in the most recent film of the
+./technical/plos/journal.pbio.0020430.txt:        with the BMI, becomes the villainous Dr. Octopus. At the end of the movie, in a flicker of
+./technical/plos/journal.pbio.0020430.txt:        Although Dr. Octopus is a fictional character, a figment of a vivid imagination,
+./technical/plos/journal.pbio.0020430.txt:        Octopus. The fictional BMI in 
+```
 
-![Example 2](cmd2.png)
 
+>>>>>>> c5df292ce77c0f2768e10568e3b0e78cc936aabe
