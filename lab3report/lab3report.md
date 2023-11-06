@@ -180,7 +180,9 @@ hugirhajibadri@Hugirs-MacBook-Pro docsearch % grep -i -r --color=auto "Jupiter" 
 hugirhajibadri@Hugirs-MacBook-Pro docsearch % 
 ```
 
-This option highlights the matches in a color, by default it is red on Mac OS. This is useful because it highlights the string to make it easier to see. Since the terminal is only in black and white it helps a lot. I found this option using "man grep" on terminal.
+There are 3 options for using this, auto, always, and never. Using "never" is the default behavior, "always" always highlights the matched text, and "auto" only highlights when outputting to the terminal. This option highlights the matches in a color, by default it is red on Mac OS. This is useful because it highlights the string to make it easier to see. Since the terminal is only in black and white it helps a lot. I found this option using "man grep" on terminal and website.
+
+[Grep --color option](https://linuxcommando.blogspot.com/2007/10/grep-with-color-output.html)
 
 
 
