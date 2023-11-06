@@ -55,12 +55,8 @@ static void reverseInPlace(int[] arr)
 ```
 
 After fixing the bug. The bug was we were not swapping arr[arr.length - 1 - i] with arr[i]. This is becuase when we assign arr[i] to arr[arr.length - 1 - i] we  lose the value of what arr[i] originally was. To fix this we introduce a temp variable to hold the value of arr[i] so that when we assign arr[i] to arr[arr.length - 1 - i] we can simply assign arr[arr.length - 1 - i] to temp. We also only need to traverse half the array because we are swapping the beginning elements from the ones at the end.
-<<<<<<< HEAD
 
-
-=======
-
-**I choose the grep command.**
+**grep -i**
 
 ```shell
 hugirhajibadri@Hugirs-MacBook-Pro docsearch % grep -i "convergent evolution" ./technical/*/*
@@ -95,4 +91,3 @@ grep: ./technical/government/Post_Rate_Comm: Is a directory
 ```
 
 
->>>>>>> c5df292ce77c0f2768e10568e3b0e78cc936aabe
