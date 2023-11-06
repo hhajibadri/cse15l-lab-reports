@@ -74,6 +74,7 @@ grep: ./technical/government/Gen_Account_Office: Is a directory
 grep: ./technical/government/Media: Is a directory
 grep: ./technical/government/Post_Rate_Comm: Is a directory
 ./technical/plos/journal.pbio.0030021.txt:        the convergent evolution of sex determination related to mating system adaptations. An
+hugirhajibadri@Hugirs-MacBook-Pro docsearch % 
 ```
 
 ```shell
@@ -88,6 +89,60 @@ grep: ./technical/government/Post_Rate_Comm: Is a directory
 ./technical/plos/journal.pbio.0020430.txt:        with the BMI, becomes the villainous Dr. Octopus. At the end of the movie, in a flicker of
 ./technical/plos/journal.pbio.0020430.txt:        Although Dr. Octopus is a fictional character, a figment of a vivid imagination,
 ./technical/plos/journal.pbio.0020430.txt:        Octopus. The fictional BMI in 
+hugirhajibadri@Hugirs-MacBook-Pro docsearch % 
 ```
 Using "-i" means grep will do a case insensitive search rather than the default cause sensitive search. This is useful if you are trying to find all occurences of a string no matter the capitalization. Also words at the beginning of a sentence will have the first letter capitalized so this would help when using "grep -i".
+
+**grep -l**
+
+```shell
+hugirhajibadri@Hugirs-MacBook-Pro docsearch % grep -l "birds" ./technical/*/*
+./technical/biomed/1471-2105-3-2.txt
+./technical/biomed/1471-2148-1-4.txt
+./technical/biomed/1471-2148-2-17.txt
+./technical/biomed/1471-2180-3-10.txt
+./technical/biomed/1472-6785-1-3.txt
+./technical/biomed/gb-2000-1-1-research002.txt
+./technical/biomed/gb-2002-3-5-research0025.txt
+./technical/biomed/gb-2003-4-3-r18.txt
+grep: ./technical/government/About_LSC: Is a directory
+grep: ./technical/government/Alcohol_Problems: Is a directory
+grep: ./technical/government/Env_Prot_Agen: Is a directory
+grep: ./technical/government/Gen_Account_Office: Is a directory
+grep: ./technical/government/Media: Is a directory
+grep: ./technical/government/Post_Rate_Comm: Is a directory
+./technical/plos/journal.pbio.0020350.txt
+./technical/plos/journal.pbio.0020354.txt
+./technical/plos/journal.pbio.0020406.txt
+./technical/plos/journal.pbio.0020440.txt
+./technical/plos/journal.pbio.0030056.txt
+./technical/plos/journal.pbio.0030127.txt
+./technical/plos/journal.pbio.0030137.txt
+hugirhajibadri@Hugirs-MacBook-Pro docsearch % 
+```
+
+```shell
+hugirhajibadri@Hugirs-MacBook-Pro docsearch % grep -i -l "darwin" ./technical/*/*
+./technical/biomed/1471-2105-3-2.txt
+./technical/biomed/gb-2001-2-9-research0035.txt
+./technical/biomed/gb-2003-4-9-r58.txt
+grep: ./technical/government/About_LSC: Is a directory
+grep: ./technical/government/Alcohol_Problems: Is a directory
+grep: ./technical/government/Env_Prot_Agen: Is a directory
+grep: ./technical/government/Gen_Account_Office: Is a directory
+grep: ./technical/government/Media: Is a directory
+grep: ./technical/government/Post_Rate_Comm: Is a directory
+./technical/plos/journal.pbio.0020046.txt
+./technical/plos/journal.pbio.0020071.txt
+./technical/plos/journal.pbio.0020302.txt
+./technical/plos/journal.pbio.0020311.txt
+./technical/plos/journal.pbio.0020346.txt
+./technical/plos/journal.pbio.0020347.txt
+./technical/plos/journal.pbio.0020439.txt
+hugirhajibadri@Hugirs-MacBook-Pro docsearch % 
+```
+
+Using the "-l" option for grep means that any matches found will only result in printing the name and path of the file instead of the actual line where it finds the pattern. This could be useful if you are trying to find which files have a specific phrase, a practical example is if you are trying to search for code that you know contains a bug and you want a list of all the files that contain it so you can fix it.
+
+
 
