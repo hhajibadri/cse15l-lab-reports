@@ -91,7 +91,7 @@ grep: ./technical/government/Post_Rate_Comm: Is a directory
 ./technical/plos/journal.pbio.0020430.txt:        Octopus. The fictional BMI in 
 hugirhajibadri@Hugirs-MacBook-Pro docsearch % 
 ```
-Using "-i" means grep will do a case insensitive search rather than the default cause sensitive search. This is useful if you are trying to find all occurences of a string no matter the capitalization. Also words at the beginning of a sentence will have the first letter capitalized so this would help when using "grep -i". Found with "man grep".
+Using "-i" means grep will do a case insensitive search rather than the default cause sensitive search. This is useful if you are trying to find all occurences of a string no matter the capitalization. Also words at the beginning of a sentence will have the first letter capitalized so this would help when using "grep -i". Found using "man grep" on terminal.
 
 **grep -l**
 
@@ -142,7 +142,7 @@ grep: ./technical/government/Post_Rate_Comm: Is a directory
 hugirhajibadri@Hugirs-MacBook-Pro docsearch % 
 ```
 
-Using the "-l" option for grep means that any matches found will only result in printing the name and path of the file instead of the actual line where it finds the pattern. This could be useful if you are trying to find which files have a specific phrase, a practical example is if you are trying to search for code that you know contains a bug and you want a list of all the files that contain it so you can fix it. Found with "man grep".
+Using the "-l" option for grep means that any matches found will only result in printing the name and path of the file instead of the actual line where it finds the pattern. This could be useful if you are trying to find which files have a specific phrase, a practical example is if you are trying to search for code that you know contains a bug and you want a list of all the files that contain it so you can fix it. Found this using "man grep".
 
 **grep -r**
 
@@ -162,7 +162,7 @@ hugirhajibadri@Hugirs-MacBook-Pro docsearch % grep -i -r "heaven" ./technical/go
 hugirhajibadri@Hugirs-MacBook-Pro docsearch % 
 ```
 
-The "-r" feature in grep is very useful because it will recursively search all files in the directory and subdirectories. Without this feature you will have to use something like "./technical/" but even then this will not search all files because you are specifying the directories grep can access. Basically -r will search all files. Found with ChatGPT.
+The "-r" feature in grep is very useful because it will recursively search all files in the directory and subdirectories. Without this feature you will have to use something like "./technical/" but even then this will not search all files because you are specifying the directories grep can access. Basically -r will search all files. I found this option using "man grep" in terminal.
 
 **grep --color=[auto, always, never]**
 
@@ -180,7 +180,7 @@ hugirhajibadri@Hugirs-MacBook-Pro docsearch % grep -i -r --color=auto "Jupiter" 
 hugirhajibadri@Hugirs-MacBook-Pro docsearch % 
 ```
 
-This option highlights the matches in a color, by default it is red on Mac OS. This is useful because it highlights the string to make it easier to see. Since the terminal is only in black and white it helps a lot. Found with ChatGPT.
+This option highlights the matches in a color, by default it is red on Mac OS. This is useful because it highlights the string to make it easier to see. Since the terminal is only in black and white it helps a lot. I found this option using "man grep" on terminal.
 
 
 
