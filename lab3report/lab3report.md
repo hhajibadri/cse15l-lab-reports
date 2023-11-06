@@ -89,5 +89,5 @@ grep: ./technical/government/Post_Rate_Comm: Is a directory
 ./technical/plos/journal.pbio.0020430.txt:        Although Dr. Octopus is a fictional character, a figment of a vivid imagination,
 ./technical/plos/journal.pbio.0020430.txt:        Octopus. The fictional BMI in 
 ```
-
+Using "-i" means grep will do a case insensitive search rather than the default cause sensitive search. This is useful if you are trying to find all occurences of a string no matter the capitalization. Also words at the beginning of a sentence will have the first letter capitalized so this would help when using "grep -i".
 
