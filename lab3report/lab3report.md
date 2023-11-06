@@ -91,7 +91,7 @@ grep: ./technical/government/Post_Rate_Comm: Is a directory
 ./technical/plos/journal.pbio.0020430.txt:        Octopus. The fictional BMI in 
 hugirhajibadri@Hugirs-MacBook-Pro docsearch % 
 ```
-Using "-i" means grep will do a case insensitive search rather than the default cause sensitive search. This is useful if you are trying to find all occurences of a string no matter the capitalization. Also words at the beginning of a sentence will have the first letter capitalized so this would help when using "grep -i".
+Using "-i" means grep will do a case insensitive search rather than the default cause sensitive search. This is useful if you are trying to find all occurences of a string no matter the capitalization. Also words at the beginning of a sentence will have the first letter capitalized so this would help when using "grep -i". Found with "man grep".
 
 **grep -l**
 
@@ -142,7 +142,7 @@ grep: ./technical/government/Post_Rate_Comm: Is a directory
 hugirhajibadri@Hugirs-MacBook-Pro docsearch % 
 ```
 
-Using the "-l" option for grep means that any matches found will only result in printing the name and path of the file instead of the actual line where it finds the pattern. This could be useful if you are trying to find which files have a specific phrase, a practical example is if you are trying to search for code that you know contains a bug and you want a list of all the files that contain it so you can fix it.
+Using the "-l" option for grep means that any matches found will only result in printing the name and path of the file instead of the actual line where it finds the pattern. This could be useful if you are trying to find which files have a specific phrase, a practical example is if you are trying to search for code that you know contains a bug and you want a list of all the files that contain it so you can fix it. Found with "man grep".
 
 
 
