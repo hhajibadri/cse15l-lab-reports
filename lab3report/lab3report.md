@@ -162,7 +162,7 @@ hugirhajibadri@Hugirs-MacBook-Pro docsearch % grep -i -r "heaven" ./technical/go
 hugirhajibadri@Hugirs-MacBook-Pro docsearch % 
 ```
 
-The "-r" feature in grep is very useful because it will recursively search all files in the directory and subdirectories. Without this feature you will have to use somethign like "./technical/*/*" but even then this will not search all files because you are specifying the directories grep can access. Basically -r will search all files. Found with ChatGPT.
+The "-r" feature in grep is very useful because it will recursively search all files in the directory and subdirectories. Without this feature you will have to use something like "./technical/" but even then this will not search all files because you are specifying the directories grep can access. Basically -r will search all files. Found with ChatGPT.
 
 **grep --color=[auto, always, never]**
 
