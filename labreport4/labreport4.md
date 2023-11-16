@@ -17,15 +17,15 @@ After that I typed in `bash test.sh<enter>` to run the bash script thats tests t
 ![Image 4](img4.png) ![Image 5](img5.png)
 
 I then typed in `vim ListExamples.java<enter>` to go into vim to edit the file with the bug.
-To get to the error using vim I pressed `<4><3><down><e>` to get the last character of `index1` on line 43.
-I then pressed `<r> 2` to change it to a `2` so it would become `index2`.
+To get to the error using vim I pressed `43<down>e` to get the last character of `index1` on line 43.
+I then pressed `r2` to replace the `1` to a `2` so it would become `index2`.
 Finally I typed in `:wq<enter>` to save the file with my changes.
 
-![Image 5](img5.png)
+![Image 6](img5.png)
 
 I then typed `bash test.sh<enter>` to rerun the test script with the updated java files and it passed the test.
 
-![Image 6](img6.png)
+![Image 7](img6.png)
 
 First I staged `ListExamples.java` by typing in `git add ListExamples.java<enter>`.
 I then committed these changes with a message by typing in `git commit -m "Updated"<enter>`.
