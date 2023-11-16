@@ -1,4 +1,4 @@
-# Lab 3 Report
+# Lab Report 3
 
 **I choose ArrayExamples and ArrayTests to demonstrate the bug and symptom.**
 

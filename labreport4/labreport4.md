@@ -1,4 +1,4 @@
-# Lab 4 Report
+# Lab Report 4
 
 ![Image 1](img1.png)
 

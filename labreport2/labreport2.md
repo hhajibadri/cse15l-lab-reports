@@ -1,4 +1,4 @@
-# Lab 2 Report
+# Lab Report 2
 
 ![Code](code.png) ![Code2](code2.png)
 

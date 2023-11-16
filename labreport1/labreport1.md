@@ -1,4 +1,4 @@
-# Lab 1 Report
+# Lab Report 1
 
 **Here is the "cd" command without any arguments, it takes you to the home directory which is also known as "~". This would be equivalent to doing "cd ~".**
 
