@@ -9,3 +9,5 @@
 [Lab Report 3](labreport3/labreport3.md)
 
 [Lab Report 4](labreport4/labreport4.md)
+
+[Lab Report 5](labreport5/labreport5.md)
