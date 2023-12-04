@@ -86,6 +86,10 @@ bash run.sh 1 2 3
 
 The way I fixed the bug was simply to add an if statement in the for each loop to check if the current number in the array is not equal to the lowest and if it isn't equal then we add it to the sum otherwise we just continue.
 
+```java
+if(num != lowest) sum += num;
+```
+
 
 # Reflection
 
