@@ -18,9 +18,7 @@ Student: What I found with JDB is that I was not excluding the minimum value for
 |-- ArrayExamples.java
 ```
 
-# Before and after fix
-
-Before the fix.
+# Before Fix
 
 ```java
 import java.util.Arrays;
@@ -78,15 +76,13 @@ javac ArrayExamples.java
 java ArrayExamples $@
 ```
 
-# Command to trigger bug
+# Command to Trigger Bug
 
 ```bash
-java ArrayExamples 1 2 3
+bash run.sh 1 2 3
 ```
 
-This is what I ran to get the symptom.
-
-# Bug Fix
+# Bug Description and Fix
 
 The way I fixed the bug was simply to add an if statement in the for each loop to check if the current number in the array is not equal to the lowest and if it isn't equal then we add it to the sum otherwise we just continue.
 
