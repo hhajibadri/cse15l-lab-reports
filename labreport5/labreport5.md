@@ -1,6 +1,9 @@
 # Lab Report 5
 
-Student: Hi everyone, I am having trouble locating and fixing a bug inside my program. My program has three methods, this only concerns one of them. This method is supposed to calculate the average of an array type of double without considering the minimum value. It is not working correctly.
+Student: Hi everyone, I am having trouble locating and fixing a bug inside my program. My program has three methods, this only concerns one of them. This method is supposed to calculate the average of an array type of double without considering the minimum value. It is not working correctly. I have attached the screenshot to my source code and input below.
+
+![Source Code](source_code.png)
+![Failure Inducing Input](input_output.png)
 
 TA: Try using the JDB to step through your program to figure out where the problem is. First compile with the special flag `java -g example.java` and then run JDB `jdb example.java`. You would want to set a breakpoint at the beginning of that method and step through each line to figure out how the values are being computed or updated.
 
