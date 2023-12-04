@@ -4,7 +4,7 @@ Student: Hi everyone, I am having trouble locating and fixing a bug inside my pr
 
 ![Failure Inducing Input](input_output.png)
 
-TA: Try using the JDB to step through your program to figure out where the problem is. First compile with the special flag `java -g example.java` and then run JDB `jdb example.java`. You would want to set a breakpoint at the beginning of that method and step through each line to figure out how the values are being computed or updated.
+TA: Try using the JDB to step through your program to figure out where the problem is. First compile with the special flag `java -g example.java` and then run JDB `jdb example.java`. You would want to set a breakpoint at the beginning of that method that deals with average and step through each line to figure out how the values are being computed or updated.
 
 Student: What I found with JDB is that I was not excluding the minimum value for the sum so it was adding all the elements instead of excluding the lowest value. So when my input was 1, 2, and 3 it was adding all of it (6) and dividing by it 2 to get 3.0. It should've done only 2 + 3 and divide it by 2 to get 2.5.
 
